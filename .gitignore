@@ -1,0 +1,27 @@
+# Sensitive / credentials
+.ssh/
+.gnupg/
+.claude.json*
+.claude/
+
+# Machine-specific / cache
+.cache/
+.cargo/
+.rustup/
+.dotnet/
+.vscode-server/
+.oh-my-zsh/
+.tmux/plugins/
+.local/
+
+# Fish universal variables (machine-specific)
+.config/fish/fish_variables
+
+# Shell history
+.bash_history
+.python_history
+.zcompdump*
+
+# Misc
+.config/matplotlib/
+.config/vscode-dev-containers/

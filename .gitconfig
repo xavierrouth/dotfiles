@@ -1,0 +1,7 @@
+[user]
+	name = Xavier Routh
+	email = xavierrouth@gmail.com
+[init]
+	defaultBranch = main
+[credential]
+	helper = "!f() { /home/vscode/.vscode-server/bin/c9d77990917f3102ada88be140d28b038d1dd7c7/node /tmp/vscode-remote-containers-36d65614-dcad-4729-a884-5e7a3ddbb328.js git-credential-helper $*; }; f"

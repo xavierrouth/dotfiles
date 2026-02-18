@@ -1,0 +1,147 @@
+{
+    "workbench.colorTheme": "Gruvbox Material Dark",
+    "vim.insertModeKeyBindings": [
+        {
+            "before": [
+                "j",
+                "j"
+            ],
+            "after": [
+                "<esc>"
+            ]
+        },
+        {
+            "before": [
+                "<C-j>"
+            ],
+            "after": [
+                "<C-j>"
+            ]
+        }
+    ],
+    "editor.minimap.enabled": false,
+    "vim.handleKeys": {
+        "<C-d>": true,
+        "<C-s>": false,
+        "<C-z>": false,
+        "<C-o>": true,
+    },
+    "vim.highlightedyank.enable": true,
+    "vim.useCtrlKeys": false,
+    "cmake.showOptionsMovedNotification": false,
+    "vim.useSystemClipboard": true,
+    "vim.smartRelativeLine": true,
+    "settingsSync.ignoredExtensions": [],
+    "editor.inlayHints.enabled": "offUnlessPressed",
+    "cmake.pinnedCommands": [
+        "workbench.action.tasks.configureTaskRunner",
+        "workbench.action.tasks.runTask"
+    ],
+    "zenMode.hideStatusBar": false,
+    "files.associations": {
+        "*.bzl": "starlark"
+    },
+    "vim.normalModeKeyBindings": [
+        {
+            "key": "ctrl+k",
+            "command": "selectPrevCodeAction",
+        },
+        {
+            "key": "ctrl+j",
+            "command": "selectNextCodeAction",
+        },
+        {
+            "before": [
+                "-"
+            ],
+            "commands": [
+                "vsnetrw.open"
+            ],
+            "when": "editorLangId != vsnetrw"
+        }
+    ],
+    "vim.camelCaseMotion.enable": true,
+    "vim.textwidth": 100,
+    "editor.semanticTokenColorCustomizations": {
+        "enabled": true,
+        "rules": {
+            "*.mutable": {
+                "underline": true,
+            }
+        }
+    },
+    "remote.SSH.remotePlatform": {
+        "miranda.cs.illinois.edu": "linux",
+        "linux.ews.illinois.edu": "linux",
+        "devl": "linux"
+    },
+    "chat.commandCenter.enabled": false,
+    "gruvboxMaterial.darkContrast": "medium",
+    "makefile.configureOnOpen": true,
+    "terminal.external.linuxExec": "fish",
+    "terminal.integrated.defaultProfile.linux": "tmux-fish",
+    "terminal.integrated.env.linux": {
+        "bash": null,
+    },
+    "terminal.integrated.profiles.linux": {
+        "tmux-fish": {
+            "path": "tmux",
+            "args": [
+                "new-session",
+                "-A",
+                "-s",
+                "main"
+            ]
+        },
+        "bash": {
+            "path": "bash",
+            "icon": "terminal-bash"
+        },
+        "zsh": {
+            "path": "zsh"
+        },
+        "fish": {
+            "path": "fish"
+        },
+        "tmux": {
+            "path": "tmux",
+            "icon": "terminal-tmux"
+        },
+        "pwsh": {
+            "path": "pwsh",
+            "icon": "terminal-powershell"
+        }
+    },
+    "terminal.integrated.enableImages": true,
+    "editor.accessibilitySupport": "off",
+    "editor.formatOnSave": true,
+    "explorer.fileNesting.patterns": {
+        "*.ts": "${capture}.js",
+        "*.js": "${capture}.js.map, ${capture}.min.js, ${capture}.d.ts",
+        "*.jsx": "${capture}.js",
+        "*.tsx": "${capture}.ts",
+        "tsconfig.json": "tsconfig.*.json",
+        "package.json": "package-lock.json, yarn.lock, pnpm-lock.yaml, bun.lockb, bun.lock",
+        "*.sqlite": "${capture}.${extname}-*",
+        "*.db": "${capture}.${extname}-*",
+        "*.sqlite3": "${capture}.${extname}-*",
+        "*.db3": "${capture}.${extname}-*",
+        "*.sdb": "${capture}.${extname}-*",
+        "*.s3db": "${capture}.${extname}-*"
+    },
+    "remote.autoForwardPortsSource": "hybrid",
+    "window.customTitleBarVisibility": "windowed",
+    "github.copilot.nextEditSuggestions.enabled": true,
+    "gitlens.ai.model": "vscode",
+    "gitlens.ai.vscode.model": "copilot:gpt-4.1",
+    "gitlens.home.preview.enabled": false,
+    "claudeCode.preferredLocation": "panel",
+    "terminal.integrated.commandsToSkipShell": [
+        "workbench.action.focusActiveEditorGroup",
+        "workbench.action.focusRightGroup",
+        "workbench.action.focusLeftGroup",
+        "workbench.explorer.fileView.focus"
+    ],
+    "chat.viewSessions.orientation": "stacked",
+    "editor.cursorBlinking": "solid"
+}

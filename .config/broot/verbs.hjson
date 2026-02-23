@@ -52,14 +52,14 @@ verbs: [
     #  the current directory or below
     {
         invocation: create {subpath}
-        execution: "$EDITOR {directory}/{subpath}"
+        execution: "code {directory}/{subpath}"
         leave_broot: false
     }
 
     {
         invocation: copy_path
-        shortcut: cpp
-        key: ctrl-y
+        shortcut: yy
+        key: y
         execution: "~/.config/broot/copy-path.sh {file}"
         leave_broot: false
     }
